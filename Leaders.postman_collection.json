@@ -1,0 +1,347 @@
+{
+	"info": {
+		"_postman_id": "9e8b8dbb-ddeb-49de-b6d4-2d5427d9a890",
+		"name": "Leaders",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/leaders",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/leaders",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"leaders"
+					]
+				},
+				"description": "Fetches all the leaders present in the DB"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/leaders",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"leaders"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/leaders/:id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/leaders/:id",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"leaders",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id"
+						}
+					]
+				},
+				"description": "Fetches the details of the particular ID"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/leaders/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"leaders",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/leaders",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/leaders",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"leaders"
+					]
+				},
+				"description": "The body of the POST request should contain the json file of the following format { \"name\": \"Nilesh Mishra\", \"image\": \"assets/img/nilesh.png\", \"designation\": \"Actor\", \"abbr\": \"NM\", \"description\": \"Best actor as of now in his Constituency\", \"featured\": \"false\" }"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/leaders",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"leaders"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/leaders/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/leaders/:id",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"leaders",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id"
+						}
+					]
+				},
+				"description": "The of the PUT request should contain the json file with the parameters to be updated"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/leaders/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"leaders",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/leaders",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/leaders",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"leaders"
+					]
+				},
+				"description": "Delete all the leaders present in the DB"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/leaders",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"leaders"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/leaders/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/leaders/:id",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"leaders",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id"
+						}
+					]
+				},
+				"description": "Deletes the leader with the given ID."
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/leaders/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"leaders",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
